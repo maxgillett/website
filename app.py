@@ -47,5 +47,22 @@ def coursework():
 def dsp():
   return render_template('course-notes.html')
 
+### Backwards compatibility ###
+@app.route("/post/28504483668/devise-omniauth-facebook-js-sdk-tutorial")
+def tumblr1():
+  e = data['markdown'].get('writing/2012/fully-asynchronous-fb-login-with-devise-and-omniauth')
+  return render_template('entry.html', title=e['title'], date=e['date'], text=e['text'])
+
+@app.route("/post/24314393831/your-results-are-ready-23andme")
+def tumblr1():
+  e = data['markdown'].get('writing/2012/thoughts-on-23andme')
+  return render_template('entry.html', title=e['title'], date=e['date'], text=e['text'])
+
+@app.route("/post/43079165761/backpack-io-direct-multipart-uploads-to-s3-in-rails")
+def tumblr1():
+  e = data['markdown'].get('writing/2013/direct-multipart-uploads-to-s3-in-rails')
+  return render_template('entry.html', title=e['title'], date=e['date'], text=e['text'])
+###############################
+
 if __name__ == "__main__":
   app.run()
