@@ -8,7 +8,6 @@ Werkzeug==0.9.4
 distribute==0.6.35
 gunicorn==18.0
 itsdangerous==0.23
-libxml2-python==2.9.1
 pyScss==1.2.0.post3
 six==1.4.1
 uuid==1.30
