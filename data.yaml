@@ -1,0 +1,47 @@
+writing:
+  - year: 2013
+    entries: 
+      - title: Direct Multipart Uploads to S3 in Rails
+        file: 13feb2013.md
+        date: 13 FEB 2013
+        url: direct-multipart-uploads-to-s3-in-rails
+
+  - year: 2012
+    entries: 
+      - title: Fully asynchronous Facebook login with Devise and Omniauth
+        file: 1aug2012.md
+        date: 1 AUG 2012
+        url: fully-asynchronous-fb-login-with-devise-and-omniauth
+
+      - title: Thoughts on 23andme
+        file: 3jun2012.md
+        date: 3 JUN 2012
+        url: thoughts-on-23andme
+
+projects:
+  - year: 2013
+    entries:
+      - title: Bitcast
+        url: http://www.bitcast.io
+
+      - title: S3 Multipart
+        url: http://www.github.com/maxgillett/s3_multipart
+
+  - year: 2012
+    entries:
+      - title: Vinyl Loop
+        url: http://www.vinylloop.com
+
+      - title: Codescribe
+        url: http://www.github.com/maxgillett/codescribe
+
+      - title: Syncd
+        url: http://www.github.com/maxgillett/syncd
+  
+  - year: 2011
+    entries: 
+      - title: BookSwap
+        url: http://www.vandybookswap.com
+      
+      - title: Vandy Roulette
+        url: http://www.vandyroulette.com

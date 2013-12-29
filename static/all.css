@@ -1,0 +1,270 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:400,700); 
+  #wrapper {
+    height: 100%;
+    margin: 0px auto;
+    width: 860px; }
+    #wrapper #header {
+      height: 40px;
+      padding-bottom: 3px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc; }
+      #wrapper #header a.name {
+        float: left;
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-size: 24px;
+        font-weight: 600;
+        color: #1a1a1a;
+        vertical-align: top;
+        margin-top: 3px;
+        padding-left: 16px; }
+    #wrapper .findme {
+      width: 100px;
+      margin: 0px auto;
+      margin-top: 7px;
+      padding-right: 12px;
+      display: inline-block;
+      float: right; }
+      #wrapper .findme a {
+        opacity: 0.4;
+        display: inline-block; }
+        #wrapper .findme a:hover {
+          opacity: 0.7; }
+          #wrapper .findme a.github {
+            width: 18px;
+            height: 18px;
+            background: url("/static/github-icon.png") no-repeat; }
+            @media (min--moz-device-pixel-ratio: 1.3),
+(-o-min-device-pixel-ratio: 2.6/2),
+(-webkit-min-device-pixel-ratio: 1.3),
+(min-device-pixel-ratio: 1.3),
+(min-resolution: 1.3dppx) {
+              #wrapper .findme a.github {
+                background-image: url("/static/github-icon2x.png");
+                background-size: 18px 18px;   }
+}
+        #wrapper .findme a.twitter {
+          width: 21px;
+          height: 17px;
+          background: url("/static/twitter-icon.png") no-repeat; }
+          @media (min--moz-device-pixel-ratio: 1.3),
+(-o-min-device-pixel-ratio: 2.6/2),
+(-webkit-min-device-pixel-ratio: 1.3),
+(min-device-pixel-ratio: 1.3),
+(min-resolution: 1.3dppx) {
+            #wrapper .findme a.twitter {
+              background-image: url("/static/twitter-icon2x.png");
+              background-size: 21px 17px;   }
+}
+        #wrapper .findme a.hn {
+          width: 18px;
+          height: 18px;
+          background: url("/static/hn-icon.png") no-repeat; }
+          @media (min--moz-device-pixel-ratio: 1.3),
+(-o-min-device-pixel-ratio: 2.6/2),
+(-webkit-min-device-pixel-ratio: 1.3),
+(min-device-pixel-ratio: 1.3),
+(min-resolution: 1.3dppx) {
+            #wrapper .findme a.hn {
+              background-image: url("/static/hn-icon2x.png");
+              background-size: 18px 18px;   }
+}
+        #wrapper .findme a.bitcoin {
+          width: 18px;
+          height: 18px;
+          background: url("/static/bitcoin-icon.png") no-repeat; }
+          @media (min--moz-device-pixel-ratio: 1.3),
+(-o-min-device-pixel-ratio: 2.6/2),
+(-webkit-min-device-pixel-ratio: 1.3),
+(min-device-pixel-ratio: 1.3),
+(min-resolution: 1.3dppx) {
+            #wrapper .findme a.bitcoin {
+              background-image: url("/static/bitcoin-icon2x.png");
+              background-size: 18px 18px;   }
+}
+    #wrapper #content {
+      height: 100%;
+      position: relative;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      padding-bottom: 50px; }
+      #wrapper #content .time {
+        width: 120px;
+        text-align: right;
+        position: absolute;
+        top: 4px;
+        left: -138px; }
+        #wrapper #content p {
+          line-height: 1.5em; }
+          #wrapper #content .writing, #wrapper #content .projects, #wrapper #content .misc {
+            margin-right: 20px;
+            vertical-align: top;
+            display: inline-block; }
+            #wrapper #content .writing span, #wrapper #content .projects span,
+            #wrapper #content .misc span {
+              display: block;
+              width: 260px;
+              margin: 0px auto;
+              padding-left: 43px;
+              font-size: 18px;
+              font-family: 'Source Sans Pro', sans-serif;
+              font-weight: 600; }
+              #wrapper #content .writing .year-group, #wrapper #content .projects .year-group,
+              #wrapper #content .misc .year-group {
+                position: relative;
+                margin: 10px 0 5px 0; }
+                #wrapper #content .writing .year-group .year,
+                #wrapper #content .projects .year-group .year,
+                #wrapper #content .misc .year-group .year {
+                  vertical-align: top;
+                  padding: 0;
+                  font-family: Arial, sans-serif;
+                  font-size: 13px;
+                  display: inline-block;
+                  width: 40px; }
+                  #wrapper #content .writing .year-group ul,
+                  #wrapper #content .projects .year-group ul, #wrapper #content .misc .year-group ul {
+                    width: 200px;
+                    display: inline-block;
+                    font-family: Arial, sans-serif;
+                    font-size: 14px;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none; }
+                    #wrapper #content .writing .year-group ul li,
+                    #wrapper #content .projects .year-group ul li,
+                    #wrapper #content .misc .year-group ul li {
+                      margin-bottom: 5px; }
+                      #wrapper #content .writing .year-group ul li a,
+                      #wrapper #content .projects .year-group ul li a,
+                      #wrapper #content .misc .year-group ul li a {
+                        text-decoration: none;
+                        color: #153d79; }
+                        #wrapper #content .writing .year-group ul li a:hover,
+                        #wrapper #content .projects .year-group ul li a:hover,
+                        #wrapper #content .misc .year-group ul li a:hover {
+                          color: black; }
+      #wrapper #content .writing {
+        margin-left: 25px;
+        width: 350px; }
+        #wrapper #content .writing span {
+          padding-left: 0px; }
+          #wrapper #content .writing .year-group ul {
+            width: 290px; }
+      #wrapper #content .projects {
+        width: 180px; }
+        #wrapper #content .projects .year-group ul {
+          width: 130px; }
+      #wrapper #content .misc {
+        width: 200px; }
+        #wrapper #content .misc .year-group ul {
+          width: 150px; }
+      #wrapper #content .markdown a {
+        text-decoration: none;
+        color: #5b2397; }
+        #wrapper #content .markdown code {
+          word-wrap: break-word; }
+          #wrapper #content .markdown blockquote {
+            margin-left: 20px;
+            border-left: 4px solid #DDD;
+            padding: 0 15px;
+            color: #777; }
+      #wrapper #content .coursework .course {
+        margin-bottom: 35px; }
+        #wrapper #content .coursework .course .course-title {
+          font-size: 16px;
+          font-weight: bold;
+          margin-bottom: 12px; }
+          #wrapper #content .coursework .course .notes,
+          #wrapper #content .coursework .course .assignments {
+            margin: 6px 0px 4px 8px; }
+            #wrapper #content .coursework .course .notes a,
+            #wrapper #content .coursework .course .assignments a {
+              text-decoration: none;
+              color: #255ab8; }
+              #wrapper #content .coursework .course .notes .title,
+              #wrapper #content .coursework .course .assignments .title {
+                font-style: italic; }
+                #wrapper #content .coursework .course .notes ul,
+                #wrapper #content .coursework .course .assignments ul {
+                  margin-left: 25px;
+                  padding: 0;
+                  line-height: 1.3em; }
+      #wrapper #content .notice {
+        font-style: italic;
+        margin-bottom: 15px; }
+
+pre code {
+  display: block;
+  padding: 0.5em;
+  color: #000;
+  background: #f8f8ff; }
+
+  pre .comment, pre .template_comment, pre .diff .header, pre .javadoc {
+    color: #408080;
+    font-style: italic; }
+
+    pre .keyword, pre .assignment, pre .literal, pre .css .rule .keyword,
+    pre .winutils, pre .javascript .title, pre .lisp .title, pre .subst {
+      color: #954121; }
+
+      pre .number, pre .hexcolor {
+        color: #40a070; }
+
+        pre .string, pre .tag .value, pre .phpdoc, pre .tex .formula {
+          color: #219161; }
+
+          pre .title, pre .id {
+            color: #19469D; }
+
+            pre .params {
+              color: #00F; }
+
+              pre .javascript .title, pre .lisp .title, pre .subst {
+                font-weight: normal; }
+
+                pre .class .title, pre .haskell .label, pre .tex .command {
+                  color: #458;
+                  font-weight: bold; }
+
+                  pre .tag, pre .tag .title, pre .rules .property, pre .django .tag .keyword {
+                    color: #000080;
+                    font-weight: normal; }
+
+                    pre .attribute, pre .variable, pre .instancevar, pre .lisp .body {
+                      color: #008080; }
+
+                      pre .regexp {
+                        color: #B68; }
+
+                        pre .class {
+                          color: #458;
+                          font-weight: bold; }
+
+                          pre .symbol, pre .ruby .symbol .string, pre .ruby .symbol .keyword,
+                          pre .ruby .symbol .keymethods, pre .lisp .keyword, pre .tex .special,
+                          pre .input_number {
+                            color: #990073; }
+
+                            pre .builtin, pre .constructor, pre .built_in, pre .lisp .title {
+                              color: #0086b3; }
+
+                              pre .preprocessor, pre .pragma, pre .pi, pre .doctype, pre .shebang, pre .cdata {
+                                color: #999;
+                                font-weight: bold; }
+
+                                pre .deletion {
+                                  background: #fdd; }
+
+                                  pre .addition {
+                                    background: #dfd; }
+
+                                    pre .diff .change {
+                                      background: #0086b3; }
+
+                                      pre .chunk {
+                                        color: #aaa; }
+
+                                        pre .tex .formula {
+                                          opacity: 0.5; }

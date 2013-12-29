@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="notice">Note: These notes are not intended to be used as a learning guide. I wrote them to help me work through content and to serve as a future reminder.
+  </div>
+  <div class="notebook"></div>
+  <script>
+    $(".notebook").load("/static/courses/dft.html");
+  </script>
+<!--  <iframe src="/static/courses/dft.html" seamless height="100%" width="100%"></iframe> -->
+{% endblock %}

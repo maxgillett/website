@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="time">{{ date }}</div>
+  <h2>{{ title }}</h2>
+  <div class="markdown">
+    {{ text|safe }}
+  </div>
+{% endblock %}

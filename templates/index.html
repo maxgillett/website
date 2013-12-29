@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+{% block content %}
+  <div class="writing">
+    <span>Writing</span>
+    {% for group in writing %}
+      <div class="year-group">
+        <div class="year">
+          {{ group.year }}
+        </div>
+        <ul>
+          {% for entry in group.entries %}
+          <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="projects">
+    <span>Projects</span>
+    {% for group in projects %}
+      <div class="year-group">
+        <div class="year">
+          {{ group.year }}
+        </div>
+        <ul>
+          {% for entry in group.entries %}
+          <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="misc">
+    <span>Other</span>
+    <div class="year-group">
+      <div class="year">
+      </div>
+      <ul>
+        <li><a href="/coursework">Online Coursework</a></li>
+        <li>Reviews</li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
