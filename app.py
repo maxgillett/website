@@ -54,12 +54,12 @@ def tumblr1():
   return render_template('entry.html', title=e['title'], date=e['date'], text=e['text'])
 
 @app.route("/post/24314393831/your-results-are-ready-23andme")
-def tumblr1():
+def tumblr2():
   e = data['markdown'].get('writing/2012/thoughts-on-23andme')
   return render_template('entry.html', title=e['title'], date=e['date'], text=e['text'])
 
 @app.route("/post/43079165761/backpack-io-direct-multipart-uploads-to-s3-in-rails")
-def tumblr1():
+def tumblr3():
   e = data['markdown'].get('writing/2013/direct-multipart-uploads-to-s3-in-rails')
   return render_template('entry.html', title=e['title'], date=e['date'], text=e['text'])
 ###############################
